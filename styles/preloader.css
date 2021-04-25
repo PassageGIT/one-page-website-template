@@ -1,0 +1,25 @@
+#preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #fefefe;
+    z-index: 999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preloader img {
+    width: 10rem;
+    animation: preloader 1s infinite;
+}
+
+@keyframes preloader {
+    from {
+        transform: rotate(0);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}

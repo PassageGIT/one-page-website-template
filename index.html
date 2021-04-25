@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content=" ">
+    <!--YOUR SITE DESCRIPTION HERE-->
+
+    <meta name="keywords" content=" ">
+    <!--KEYWORDS ABOUT YOUR WEBSITE example: "keyword, keyword2, keyword3"-->
+
+    <meta property="og:type" content="article" />
+
+    <meta property="og:title" content=" " />
+    <!--the title of your website's links shared on social media-->
+
+    <meta property="og:description" content=" " />
+    <!--the description of your website's links shared on social media-->
+
+    <meta property="og:site_name" content="" />
+    <!--you know-->
+
+    <title>this is a title</title>
+
+    <link rel="stylesheet" href="styles/preloader.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/scroll-button.css">
+    <link rel="stylesheet" href="styles/scrollbar.css">
+    <link rel="stylesheet" href="styles/breakpoints.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/YOUR-ADDRESS" type="image/x-icon" />
+    <!--YOUR FAVICON ADDRESS HERE-->
+
+</head>
+
+<body>
+
+    <div id="preloader">
+        <img src="images/loader-image.svg" alt="logo">
+    </div>
+    <nav id="nav">
+        <a href="#home" class="logo-link"><img src="images/example-logo.svg" alt="logo" class="nav-logo"></a>
+
+        <div class="toggler-button" onclick="toggleFunction()">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+
+        <ul id="navbar">
+            <li class="nav-item">
+                <a class="nav-link" id="link1" href="#about-us">about us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="link2" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="link3" href="#contact">contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <button onclick="topFunction()" id="topBtn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <article id="home">
+        <header>
+            <h1 id="hero-title">A One Page Website<br> Template</h1>
+            <p id="hero-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing
+                <br>
+                Lorem ipsum dolor
+            </p>
+
+            <button type="button" class="hero-button">
+                <a href="#about-us">Learn More</a>
+            </button>
+        </header>
+    </article>
+
+    <section id="about-us">
+        <h3 class="section-header">About Us</h3>
+        <div class="grid-inner">
+            <div class="grid-1">
+                <img class="about-image" draggable="false" src="images/about-image.svg" alt="about-image">
+            </div>
+            <div class="grid-2">
+                <div class="circle-inner">
+                    <i class="far fa-circle cir1"></i>
+                    <i class="far fa-circle cir2"></i>
+                    <i class="far fa-circle cir3"></i>
+                </div>
+                <p class="section-text">
+                    <b>Your Company</b>, Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus natus eius veniam debitis,
+                    accusantium ad unde quibusdam dicta et sint qui illum amet nesciunt!
+                    <br><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sapiente!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, hic!
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h3 class="section-header">
+            services
+        </h3>
+        <div class="card-inner">
+            <div class="card">
+                <img src="images/services.png" alt="service" class="card-image">
+                <h4 class="card-title">Security</h4>
+                <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, facere.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/services.png" alt="service" class="card-image">
+                <h4 class="card-title">Milk</h4>
+                <p class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, libero.
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/services.png" alt="service" class="card-image">
+                <h4 class="card-title">Another Service</h4>
+                <p class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, maxime?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="our-team">
+
+    </section>
+
+    <section id="contact">
+        <h3 class="section-header">Contact</h3>
+        <!--you can enter your contact informations here-->
+        <div class="contact-inner">
+            <div class="contact-mail contact-item">
+                <i class="far fa-envelope"></i>
+                <a href="mailto:admin@emreduman.xyz">admin@emreduman.xyz</a>
+            </div>
+            <br>
+            <div class="contact-wp contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/" target="_blank">+99999999</a>
+            </div>
+            <br>
+            <div class="contact-ig contact-item">
+                <i class="fab fa-instagram"></i>
+                <a href="https://instagram.com/emred.man/" target="_blank">emred.man</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <img class="footer-image" src="images/example-logo.svg" alt="logo">
+        <small>© All rights reserved.</small>
+        <a class="footer-link" href="gizlilik-politikasi.html">Privacy Policy</a>
+    </footer>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+
+</body>
+
+</html>

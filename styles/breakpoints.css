@@ -1,0 +1,108 @@
+/*--------TÜM CİHAZLARA UYUMLU TASARIM---------------*/
+@media screen and (max-width:576px) {
+    
+    html {
+        font-size: 8px;
+    }
+    
+    nav {
+        background-color: #191d21;
+    }
+    
+    nav .toggler-button {
+        display: inline-block;
+    }
+    
+    nav #navbar {
+        float: none;
+        background-color: #191d21;
+        padding-bottom: 2rem;
+        display: none;
+    }
+    
+    .nav-scroll {
+        box-shadow: none;
+    }
+
+    nav .nav-item {
+        display: block;
+        padding: 1.5rem 0;
+        border-bottom: solid 1px rgba(0,0,0,0.2);
+    }
+    
+    #home header {
+        padding-left: 2rem;
+    }
+    
+    #home header:after {
+        background-size: 20.5rem;
+        right: 2rem;
+    }
+    
+    #home #hero-title {
+        font-size: 3.8rem;
+        padding-left: 0;
+    }
+    
+    #home #hero-description {
+        font-size: 1.8rem;
+    }
+    
+    #home .hero-button {
+        margin-top: 3rem;
+    }
+    
+    #home .hero-button a {
+        padding: 1.2rem 2rem;
+    }
+    
+
+    #about-us .grid-inner {
+        display: block;
+    }
+
+    #about-us .about-image {
+        width: 38rem;
+    }
+
+    #about-us .grid-2 {
+        padding-right: 0;
+        width: 100%;
+        margin-top: 10rem;
+    }
+    
+    .circle-inner {
+        display: none;
+    }
+
+
+    #services .card:hover {
+        transform: none;
+    }
+
+    #services .card-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #services .card {
+        width: 90%;
+    }
+
+    #contact .contact-inner {
+        flex-direction: column;
+        padding-left: 5rem;
+    }
+
+    #contact .contact-item {
+        margin-bottom: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    html {
+        font-size: 5px;
+    }
+}
+

@@ -1,0 +1,20 @@
+#topBtn {
+    width: 45px;
+    height: 45px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #2495dd;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#topBtn:focus {
+    box-shadow: 0 0 8px #2495dd;
+}
