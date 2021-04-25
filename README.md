@@ -1,6 +1,8 @@
 # one-page-website-template
 A simple one page website built using HTML, CSS and Javascript. I will try to improve as long as I have time. You can use this for a start-up or project you just started.
 
+the project was designed responsively.
+
 It is recommended that you edit the privacy policy of the project according to your own use. It may not be suitable enough for the GDPR. In this case, the responsibility belongs to you.
 
 # Screenshots:
